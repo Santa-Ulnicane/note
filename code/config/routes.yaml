@@ -1,3 +1,24 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+api_add_note:
+    path:       /notes/add
+    controller: App\Controller\NoteController::addAction
+    methods:    POST
+
+api_put_note:
+    path:       /notes/{id}
+    controller: App\Controller\NoteController::putAction
+    methods:    PUT
+    
+api_get_all_notes:
+    path:       /notes
+    controller: App\Controller\NoteController::getAllAction
+    methods:    GET
+
+api_get_note:
+    path:       /notes/{id}
+    controller: App\Controller\NoteController::getAction
+    methods:    GET
+
+api_delete_note:
+    path:       /notes/{id}
+    controller: App\Controller\NoteController::deleteAction
+    methods:    DELETE
