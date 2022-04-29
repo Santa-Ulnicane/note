@@ -10,6 +10,7 @@ Symfony based note API. Provides JSON API endpoints to create, read, update and 
 4. Go to root of symfony project - `cd code`
 5. Install dependencies - `composer install`
 6. Open site in browser [localhost:8001](http://localhost:8001)
+7. Open phpMyAdmin in browser [localhost:8080](http://localhost:8080), username: symfony, password: symfony, database: symfony
 
 ## Tasks
 
